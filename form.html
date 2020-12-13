@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form</title>
+    <meta charset="UTF-8">
+  </head>
+
+  <body>
+
+    <!-- Header section begins -->
+    <header>
+      <h2>Registration Form</h2>
+    </header>
+    <!-- Header section ends -->
+
+    <main>
+      <!-- Form begins -->
+      <form>
+        <label for = "name">First Name</label>
+        <input type = "text" style = "background : rgba(245, 242, 242, 0.849); outline:none" tabindex="1"/><br/><br/>
+
+        <label for = "surname">Last Name</label>
+        <input type = "text" style = "background : rgba(245, 242, 242, 0.849); outline:none" tabindex="2"/><br/><br/>
+
+        <label for = "birthday">Birthday</label>
+        <input type = "date" style = "background : rgba(245, 242, 242, 0.849); outline:none" tabindex="3"/><br/><br/>
+
+        <label>Gender</label><br/>
+        <input type = "radio" style = " outline:none" value="male"/>
+        <label for = "gender">Male</label>
+        <input type = "radio" style = " outline:none" value="female"/>
+        <label for = "gender">Female</label><br/><br/>
+
+        <label for = "email">Email</label>
+        <input type = "email" style = "background : rgba(245, 242, 242, 0.849); outline:none" tabindex="4" /><br/><br/>
+
+        <label for = "number">Phone Number</label>
+        <input type = "text" style = "background : rgba(245, 242, 242, 0.849); outline:none" tabindex="5" /><br/><br/>
+
+        <label for = "card">ID Card</label>
+        <input type = "file" accept="image/png, image/jpeg,, image/jpg .doc,.docx, application/pdf" style = "outline:none" tabindex="6"/><br/><br/>
+
+        <label for = "fin">Identification Number</label>
+        <input type = "text" style = "background : rgba(245, 242, 242, 0.849); outline:none" tabindex="7"/><br/><br/>
+
+        <label for = "address">Address</label>
+        <input type = "text" style = "background : rgba(245, 242, 242, 0.849); outline:none" tabindex="8"/><br/><br/>
+
+
+        <label for = "subject">Subject</label>
+        <select>
+          <option value="" selected disabled hidden>Choose option</option>
+          <option value="1">Subject 1</option>
+          <option value="2">Subject 2</option>
+          <option value="3">Subject 3</option>
+        </select>
+        <br/><br/>
+
+        <button type = "submit" style="background-color:rgb(37, 138, 253)">Submit</button>
+
+      </form>
+      <!-- Form ends-->
+    </main>
+  </body>
+</html>
